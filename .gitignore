@@ -1,0 +1,18 @@
+# --- Obsidian (vault в docs/vault, конфиг в .obsidian) ---
+# Версионируем общие настройки и community-плагины (Tasks/Dataview),
+# но НЕ персональный layout/кэш каждого разработчика.
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+
+# --- Go (появится с каркасом проекта) ---
+/bin/
+*.exe
+*.test
+*.out
+coverage.*
+
+# --- Локальное окружение ---
+.env
+.env.local
+*.local
